@@ -1,26 +1,22 @@
-﻿class FindExeption
+﻿class Program
 {
-    public static void Main()
+    static int sum(int n)
     {
-        int[] arr = new int[5] { 0, 1, 2, 3, 4 };
+        if (n != 0)
+        {
+            return n + sum(n - 1);
+        }
+        else
+        {
+            return n;
+        }
+    }
 
-        try
-        {
-            int n = arr[5];
-        }
-        catch (IndexOutOfRangeException iex)
-        {
-            Console.WriteLine(iex.Message);
-        }
+    static void Main()
+    {
+        int number = 4;
+        int result = sum(number);
 
-        Console.WriteLine("Enter string");
-        try
-        {
-            int num1 = int.Parse(Console.ReadLine()); // input: abc
-        }
-        catch (FormatException fex)
-        {
-            Console.WriteLine(fex.Message);
-        }
+        Console.WriteLine("sum = {0}", result);
     }
 }

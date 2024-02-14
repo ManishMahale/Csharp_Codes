@@ -28,7 +28,7 @@ class Rectangle
 }
 class Area
 {
-    public static void Main(string[] args)
+    public static void Main()
     {
         float redius, len, wid;
 
