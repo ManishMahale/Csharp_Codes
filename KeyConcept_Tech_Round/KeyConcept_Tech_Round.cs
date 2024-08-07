@@ -1,10 +1,10 @@
 ﻿//class KeyConcept_Tech_Round
 //{
-//    static int sum(int n)
+//    static int Sum(int n)
 //    {
 //        if (n != 0)
 //        {
-//            return n + sum(n - 1);
+//            return n + Sum(n - 1);
 //        }
 //        else
 //        {
@@ -15,9 +15,9 @@
 //    static void Main()
 //    {
 //        int number = 4;
-//        int result = sum(number);
+//        int result = Sum(number);
 
-//        Console.WriteLine("sum = {0}", result);
+//        Console.WriteLine("Sum = {0}", result);
 //    }
 //}
 //output = 10
@@ -56,31 +56,39 @@
 //HashSet used
 
 //using System;
-//using System.Collections.Generic;
 
-namespace LogicalPrograms
-{
-    class Program
-    {
-        static void Main()
-        {
-            Console.Write("Enter a String: ");
-            string inputString = "AAABCCSSDDD"; //= Console.ReadLine();
-            string resultString = string.Empty;
+//namespace LogicalPrograms
+//{
+//    class Program
+//    {
+//        static void Main()
+//        {
+//            Console.Write("Enter a String: ");
+//            string inputString = "AAABCCSSDDD"; //= Console.ReadLine();
+//            string resultString = string.Empty;
 
-            var unique = new HashSet<char>(inputString);
+//            var unique = new HashSet<char>(inputString);
 
-            foreach (char c in unique)
-            {
-                resultString += c;
-            }
+//            foreach (char c in unique)
+//            {
+//                resultString += c;
+//            }
 
-            Console.WriteLine("After Removing Duplicates: " + resultString);
-            Console.ReadKey();
 
-        }
-    }
-}
+//            HashSet<char> ihs= new HashSet<char>();
+//            ihs.Add('A');
+//            ihs.Add('B');
+//            ihs.Add('A');
+//            foreach (var item in ihs)
+//            {
+//                Console.WriteLine(item);
+//            }
+//            Console.WriteLine("After Removing Duplicates: " + resultString);
+//            Console.ReadKey();
+
+//        }
+//    }
+//}
 
 
 //---------------------------------
@@ -110,3 +118,62 @@ namespace LogicalPrograms
 //    }
 //}
 
+
+
+
+
+
+
+
+
+//--------------------------------------
+// Remove duplicate elements from array
+//namespace LogicalPrograms
+//{
+//    class Program
+//    {
+//        static void Main()
+//        {
+//            int[] arr = { 1, 1, 2, 3, 4 };
+//            string resultString = string.Empty;
+//            var unique = new HashSet<int>(arr);
+//            Console.WriteLine("After Removing Duplicates: " + resultString);
+//            foreach (int c in unique)
+//            {
+//                Console.WriteLine(c + " ");
+//            }
+//            Console.ReadKey();
+//        }
+//    }
+//}
+
+
+
+
+
+
+//---------------------------------------
+
+
+class KeyConcept
+{
+    static int Sum(int n)//4//3//2//1//0
+    {
+        if (n != 0)//t//t//1
+        {
+            return n + Sum(n - 1);  //4+3+2+1+0===10   10
+        }
+        else
+        {
+            return n;
+        }
+    }
+
+    static void Main()
+    {
+        int number = 4;
+        int result = Sum(number);//10
+
+        Console.WriteLine("Sum = {0}", result);//10
+    }
+}
