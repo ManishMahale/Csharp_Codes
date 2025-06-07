@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel;
+using static ReverseString.ReverseEveryWordOfSentence;
 class STR
 {
     private char[]? ch;
@@ -28,13 +29,22 @@ class RevStr
 {
     public static void Main(String[] args)
     {
-        STR obj = new STR();
+        //STR obj = new STR();
 
-        string? s = Console.ReadLine();
-        char[]? str = obj.rev(s);
-        Console.WriteLine(str);
+        //string? s = Console.ReadLine();
+        //char[]? str = obj.rev(s);
+        //Console.WriteLine(str);
 
+        ReverseWords reverseWords = new ReverseWords();
+        string sentence = "Hello World from C#"; // Example sentence
+        string sentence2 = "Hello World from C#"; // Example sentence
+        string reversedSentence = reverseWords.ReverseEachWord(sentence);
+        Console.WriteLine(reversedSentence); // Output: "olleH dlroW morf #C"
 
+        string reversedWithoutInbuild = reverseWords.ReverseWordWithoutInbuildFunction(sentence2);
+        Console.WriteLine();
+
+        Console.WriteLine(reversedWithoutInbuild); // Output: "olleH dlroW morf #C"
         //string s1 = "ABCDe";
         //char[] ch = s1.ToCharArray();
         //int end = ch.Length - 1;
