@@ -1,6 +1,4 @@
 ﻿/*Write a class student with some instance variables link roll_no,sub[5],total_marks,per with appropriate data types. student clas is inherited from class person which have instance variables like name, adhar, PAN. */
-using System.Threading.Channels;
-
 class Person
 {
     public string Name { get; set; }
@@ -53,7 +51,7 @@ class Student : Person
     public void CalculatePercentage()
     {
         Percentage = (float)Total_Marks / SubMarks.Length;
-        
+
     }
     public void Show()
     {
@@ -81,7 +79,7 @@ class Staring
         try
         {
             no = int.Parse(Console.ReadLine());
-            if(no<1)
+            if (no < 1)
             {
                 throw new Exception("Number of students shuld be more then ZERO");
             }

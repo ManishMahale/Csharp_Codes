@@ -6,15 +6,15 @@ class Circle
     {
         this.redius = redius;
     }
-   public void ShowCircleArea()
+    public void ShowCircleArea()
     {
-        Console.WriteLine("Area OF Circle = "+2*3.14f*redius+"\n");
+        Console.WriteLine("Area OF Circle = " + 2 * 3.14f * redius + "\n");
     }
 }
 class Rectangle
 {
     protected float l, w;
-   public void SetLW(float l, float w)
+    public void SetLW(float l, float w)
     {
         this.l = l;
         this.w = w;
@@ -23,7 +23,7 @@ class Rectangle
     public void ShowRectangleArea()
     {
         Console.Write("Area of Rectangle= " + l * w);
-       
+
     }
 }
 class Area
@@ -39,9 +39,9 @@ class Area
         c.ShowCircleArea();
 
         Console.WriteLine("Enter Lenght and Width:");
-        len= int.Parse(Console.ReadLine());
-        wid= int.Parse(Console.ReadLine());
-        Rectangle r= new Rectangle();
+        len = int.Parse(Console.ReadLine());
+        wid = int.Parse(Console.ReadLine());
+        Rectangle r = new Rectangle();
         r.SetLW(len, wid);
         r.ShowRectangleArea();
     }

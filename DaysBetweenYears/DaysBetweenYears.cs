@@ -1,6 +1,4 @@
-﻿using System.Security.Cryptography.X509Certificates;
-
-namespace DaysBetweenYEars
+﻿namespace DaysBetweenYEars
 {
 
     internal class Days
@@ -40,6 +38,6 @@ namespace DaysBetweenYEars
                 return false;
             return true;
         }
-        
+
     }
 }

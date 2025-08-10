@@ -1,8 +1,4 @@
 ﻿//Employee Records
-using System.Diagnostics.Metrics;
-using System.Security.Cryptography.X509Certificates;
-using System.Xml.Linq;
-
 class Employee
 {
     private int id, basicSal, progress, increment, incSal;
@@ -21,7 +17,7 @@ class Employee
 
         if (progress > 60)
         {
-            increment =(int) (basicSal * 0.3);
+            increment = (int)(basicSal * 0.3);
             incSal = increment + basicSal;
         }
         else

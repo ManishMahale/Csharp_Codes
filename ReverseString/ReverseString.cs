@@ -1,5 +1,4 @@
-﻿using System.ComponentModel;
-using static ReverseString.ReverseEveryWordOfSentence;
+﻿using static ReverseString.ReverseEveryWordOfSentence;
 class STR
 {
     private char[]? ch;

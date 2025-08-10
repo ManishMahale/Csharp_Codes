@@ -1,6 +1,4 @@
-﻿using System;
-
-/*tryQuestion 1
+﻿/*tryQuestion 1
 
 Revisat Later
 

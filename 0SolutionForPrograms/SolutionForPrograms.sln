@@ -67,6 +67,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chocolate_Distribution", ".
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwapFirstAndLastCharacters", "..\SwapFirstAndLastCharacters\SwapFirstAndLastCharacters.csproj", "{500B3ACD-47EB-4C5E-853E-BC743589C0CA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindDuplicates FromArray", "..\FindDuplicates FromArray\FindDuplicates FromArray.csproj", "{23C46E82-C27A-41C2-BCD9-2250E88DA460}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -201,6 +203,10 @@ Global
 		{500B3ACD-47EB-4C5E-853E-BC743589C0CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{500B3ACD-47EB-4C5E-853E-BC743589C0CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{500B3ACD-47EB-4C5E-853E-BC743589C0CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23C46E82-C27A-41C2-BCD9-2250E88DA460}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23C46E82-C27A-41C2-BCD9-2250E88DA460}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23C46E82-C27A-41C2-BCD9-2250E88DA460}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23C46E82-C27A-41C2-BCD9-2250E88DA460}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

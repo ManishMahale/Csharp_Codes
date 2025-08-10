@@ -1,5 +1,4 @@
-﻿using System.ComponentModel.DataAnnotations;
-using System.Diagnostics;
+﻿using System.Diagnostics;
 namespace stringreverce
 {
     public class Demo
@@ -10,7 +9,7 @@ namespace stringreverce
             sw1.Start();
             //int[,] a = new int[5, 5]; // to take inlut from user we declare 5X5 array
 
-            int[,] a = new int[,] { { 1, 0, 1, 0, 1 }, { 0, 1, 1, 0, 1 }, { 1, 1, 1, 0, 1 }, { 1, 0, 1, 1, 1 }, { 1, 0, 0, 0, 1 } }; 
+            int[,] a = new int[,] { { 1, 0, 1, 0, 1 }, { 0, 1, 1, 0, 1 }, { 1, 1, 1, 0, 1 }, { 1, 0, 1, 1, 1 }, { 1, 0, 0, 0, 1 } };
             int rows = a.GetLength(0);  // to find rows in 2d array
             int cols = a.GetLength(1); // to find columns in 2d array
 
@@ -414,7 +413,7 @@ namespace stringreverce
             finally
             {
                 sw1.Stop();
-                Console.WriteLine("\nTime Taken to Complete the tast " + sw1.ElapsedMilliseconds+" milisecond"); //sw1.ElapsedMilliseconds -> to print time in milisecond on console
+                Console.WriteLine("\nTime Taken to Complete the tast " + sw1.ElapsedMilliseconds + " milisecond"); //sw1.ElapsedMilliseconds -> to print time in milisecond on console
             }
         }
     }

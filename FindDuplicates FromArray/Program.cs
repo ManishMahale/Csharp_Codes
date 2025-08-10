@@ -4,7 +4,7 @@ public class HelloWorld
 {
     public static void Main(string[] args)
     {
-        int[] myNumbers = { 5, 1, 8, 9, 3, 10, 13, 2, 9, 5, 1 };        
+        int[] myNumbers = { 5, 1, 8, 9, 3, 10, 13, 2, 9, 5, 1 };
 
         Console.WriteLine("\nDuplicates:");
         for (int i = 0; i < myNumbers.Length; i++)

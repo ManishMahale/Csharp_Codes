@@ -9,8 +9,6 @@
     Default parameter  //passing parameter as default value
 
 */
-using System.Reflection;
-
 
 class outerClass
 {

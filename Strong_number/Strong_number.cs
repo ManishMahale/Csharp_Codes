@@ -10,7 +10,7 @@
         }
         public void FindStrong()
         {
-            for (int f = 1; f <=n; f++)
+            for (int f = 1; f <= n; f++)
             {
                 sum = 0;
                 int Temp = f;
@@ -30,7 +30,7 @@
                 {
                     Console.WriteLine(f);
                 }
-                
+
             }
         }
     }

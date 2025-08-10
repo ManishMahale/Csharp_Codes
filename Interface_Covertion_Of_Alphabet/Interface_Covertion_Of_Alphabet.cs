@@ -75,7 +75,7 @@ class First
         string? st = Console.ReadLine();
         char[] arr1 = st.ToCharArray();
         char[] arr2 = st.ToCharArray();
-        
+
         ConvertToUpper ctu = new ConvertToUpper();
         ctu.SetArrChar(arr1);
         Console.WriteLine("\nTo Upper:\n");
@@ -86,7 +86,7 @@ class First
         //}
 
         string str;
-        string str2= string.Empty;
+        string str2 = string.Empty;
         for (int i = 0; i < Result1.Length; i++)
         {
             str = Result1[i].ToString();

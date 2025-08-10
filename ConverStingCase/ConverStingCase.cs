@@ -4,15 +4,15 @@ class StringConvert
 {
     char[] name;
 
-    public void GetString(char []name)
+    public void GetString(char[] name)
     {
         this.name = name;
     }
     public void ConvertToUpper()
     {
-        for(int i = 0; i < name.Length; i++)
+        for (int i = 0; i < name.Length; i++)
         {
-            if (name[i] >= 97 && name[i] <= 126 )
+            if (name[i] >= 97 && name[i] <= 126)
             {
                 //name[i] = (Char)(name[i] - 32);
                 Console.Write((Char)(name[i] - 32));
@@ -22,7 +22,7 @@ class StringConvert
                 Console.Write(name[i]);
             }
         }
-        
+
     }
 
     public void ConvertToLower()
@@ -38,9 +38,9 @@ class StringConvert
                 Console.Write(name[i]);
             }
         }
-        
+
     }
-        public void ConverUpperLowerLoertUpper()
+    public void ConverUpperLowerLoertUpper()
     {
         for (int i = 0; i < name.Length; i++)
         {
@@ -53,7 +53,7 @@ class StringConvert
                 Console.Write((Char)(name[i] + 32));
             }
         }
-        
+
     }
 }
 class Convert

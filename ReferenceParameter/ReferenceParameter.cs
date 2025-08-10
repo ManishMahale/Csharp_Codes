@@ -5,9 +5,6 @@
 
 // C# program to illustrate the 
 // concept of ref parameter 
-using System;
-using System.Text.RegularExpressions;
-
 class GFG
 {
     static void CompareValue(ref string val1)

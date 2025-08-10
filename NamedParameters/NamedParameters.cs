@@ -3,8 +3,6 @@
  */
 // C# program to illustrate the  
 // concept of the named parameters 
-using System;
-
 public class GFG
 {
 

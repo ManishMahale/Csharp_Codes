@@ -1,6 +1,4 @@
 ﻿/* Swap Every first and last character of sentence Character*/
-using System;
-
 class SwapCharacters
 {
     public string SwapFirstAndLastCharacters(string sentence)

@@ -12,7 +12,7 @@ class duck
         int rem;
         int flag = 1;
         for (int i = 1; i <= n; i++)
-        {           
+        {
             int x = i;
             while (x != 0)
             {
@@ -41,7 +41,7 @@ class M
         n = int.Parse(Console.ReadLine());
         Console.WriteLine();
         duck d = new duck();
-        
+
         d.setData(n);
         d.Find();
 

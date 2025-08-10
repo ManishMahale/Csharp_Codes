@@ -4,8 +4,6 @@
 
 
 // concept of out parameter 
-using System;
-
 class GFG
 {
 

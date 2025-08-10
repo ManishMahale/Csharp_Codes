@@ -2,8 +2,6 @@
  As the name suggests optional parameters are not compulsory parameters, they are optional. It helps to exclude arguments for some parameters. Or we can say in optional parameters, it is not necessary to pass all the parameters in the method. each and every optional parameter contains a default value which is the part of its definition. If we do not pass any arguments to the optional parameters, then it takes its default value. The optional parameters are always defined at the end of the parameter list. Or in other words, the last parameter of the method, constructor, etc. is the optional parameter.
  */
 // concept of optional parameters  
-using System;
-
 class GFG
 {
 
@@ -11,7 +9,7 @@ class GFG
     // parameters, i.e. ename and eid 
     // And two optional parameters, i.e.  
     // bgrp and dept  
-    static public void detail(string ename, int eid, 
+    static public void detail(string ename, int eid,
                     string bgrp = "A+", string dept = "Review-Team" //Default Parameter
                                                                    )
 
@@ -32,7 +30,7 @@ class GFG
 
         detail("ABC", 456, "B-");
         Console.WriteLine("\n");
-        
+
         detail("DEF", 789, "B+", "Software Developer");
     }
 }

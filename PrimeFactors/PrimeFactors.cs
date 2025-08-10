@@ -1,6 +1,4 @@
-﻿using System;
-
-class PF
+﻿class PF
 {
     public int n { get; set; }
 
@@ -10,10 +8,10 @@ class PF
     }
 
     public void Primefact()
-    {       
+    {
         for (int i = 2; i <= n / 2; i++)
         {
-            
+
             bool flag = true;
             if (n % i == 0)
             {
@@ -22,7 +20,7 @@ class PF
                     if (i % j == 0)
                     {
                         flag = false;
-                    }                   
+                    }
                 }
                 if (flag)
                 {
@@ -30,7 +28,7 @@ class PF
                 }
 
             }
-            
+
         }
     }
 }

@@ -1,5 +1,4 @@
-﻿using System;
-class Greatest
+﻿class Greatest
 {
     public static void Main(string[] arg)
     {

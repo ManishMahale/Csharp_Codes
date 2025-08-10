@@ -1,7 +1,4 @@
-﻿using System;
-using System.Diagnostics.Metrics;
-
-class A
+﻿class A
 {
     private int[] Arr;
     private int Temp;

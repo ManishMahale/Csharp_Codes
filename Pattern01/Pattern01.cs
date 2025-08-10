@@ -1,5 +1,4 @@
-﻿using System;
-/*
+﻿/*
 a
 Ab
 aBc

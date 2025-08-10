@@ -20,7 +20,7 @@
     {
         return Name;
     }
-    
+
 }
 
 class CalculateBill

@@ -1,8 +1,6 @@
 ﻿/*
  Write a program to add 5 integer numbers into array and display it. Sort array in ascending order and display
 */
-using System.Collections.Concurrent;
-
 class Ascending
 {
     public int[] Arr { get; set; }
@@ -12,9 +10,9 @@ class Ascending
     }
     public int[] Sort()
     {
-        for(int i = 0; i < Arr.Length; i++)
+        for (int i = 0; i < Arr.Length; i++)
         {
-            for(int j = i+1;j< Arr.Length; j++)
+            for (int j = i + 1; j < Arr.Length; j++)
             {
                 if (Arr[i] > Arr[j])
                 {
