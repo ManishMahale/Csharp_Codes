@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.7.34202.233
+# Visual Studio Version 18
+VisualStudioVersion = 18.7.11903.348 stable
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "0SolutionForPrograms", "0SolutionForPrograms.csproj", "{B18484AE-FE7A-4449-A57B-EBB32BC09064}"
 EndProject
@@ -68,6 +68,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwapFirstAndLastCharacters", "..\SwapFirstAndLastCharacters\SwapFirstAndLastCharacters.csproj", "{500B3ACD-47EB-4C5E-853E-BC743589C0CA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindDuplicates FromArray", "..\FindDuplicates FromArray\FindDuplicates FromArray.csproj", "{23C46E82-C27A-41C2-BCD9-2250E88DA460}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniqueFromArray", "..\UniqueFromArray\UniqueFromArray.csproj", "{0BC5AB62-5553-408D-A276-265D525B54A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AllInOne", "..\AllInOne\AllInOne.csproj", "{23D19D04-D206-4E59-A5F8-EC41BD9E563F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -207,6 +211,14 @@ Global
 		{23C46E82-C27A-41C2-BCD9-2250E88DA460}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{23C46E82-C27A-41C2-BCD9-2250E88DA460}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{23C46E82-C27A-41C2-BCD9-2250E88DA460}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BC5AB62-5553-408D-A276-265D525B54A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BC5AB62-5553-408D-A276-265D525B54A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BC5AB62-5553-408D-A276-265D525B54A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BC5AB62-5553-408D-A276-265D525B54A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23D19D04-D206-4E59-A5F8-EC41BD9E563F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23D19D04-D206-4E59-A5F8-EC41BD9E563F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23D19D04-D206-4E59-A5F8-EC41BD9E563F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23D19D04-D206-4E59-A5F8-EC41BD9E563F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

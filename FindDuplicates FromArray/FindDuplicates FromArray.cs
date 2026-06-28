@@ -41,3 +41,12 @@ public class HelloWorld
         }
     }
 }
+
+/* output:
+ 
+Duplicates:
+5
+1
+9
+
+*/
